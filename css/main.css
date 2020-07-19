@@ -1,0 +1,465 @@
+
+.intro-copy {
+  padding: 1em;
+  margin: 50vh auto;
+  max-width: 15em;
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 2em;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.top-link {
+  transition: all .25s ease-in-out;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: inline-flex;
+  
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3em 3em 0;
+    border-radius: 50%;
+    padding: .25em;
+    width: 80px;
+    height: 80px;
+  background-color: #F8F8F8;
+  
+  &.show {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  &.hide {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+    svg {
+        fill: #000;
+        width: 24px;
+        height: 12px;
+    }
+
+    &:hover {
+        background-color: #E8E8E8;
+
+        svg {
+            fill: #000000;
+        }
+    }
+}
+
+// Text meant only for screen readers.
+.screen-reader-text {
+    position: absolute;
+    clip-path: inset(50%);
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    word-wrap: normal !important;
+    clip: rect(1px, 1px, 1px, 1px);
+
+    &:focus {
+        display: block;
+        top: 5px;
+        left: 5px;
+        z-index: 100000; // Above WP toolbar
+        clip-path: none;
+        background-color: #eee;
+        padding: 15px 23px 14px;
+        width: auto;
+        height: auto;
+        text-decoration: none;
+        line-height: normal;
+        color: #444;
+        font-size: 1em;
+        clip: auto !important;
+    }
+}
+
+
+
+/** animation voiture */
+@keyframes drive {
+    from {
+      transform: scale(0.2);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  .car {
+    animation: drive 3s cubic-bezier(0.02, 0.01, 0.21, 1) infinite;
+  }
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+	padding: 0;
+	margin: 0;
+	background:#f4f4f4;
+}
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Raleway";
+}
+.navbar{
+	background:#2e3030;
+}
+.nav-link , .navbar-brand{
+	color: #f4f4f4;
+	cursor: pointer;
+}
+.nav-link{
+	margin-right: 1em !important;
+}
+.nav-link:hover{
+    color: #ccc;
+    border-bottom: 2px solid #f4f4f4;
+
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+/*.navbar-toggler{
+  background:#fff !important;
+}*/
+
+/*header style*/
+.header{
+	position: relative;
+	background-image: url('../images/headerback.jpg');
+
+	background-size: cover;
+	background-position: center;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.79);
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+
+}
+
+
+.description h1{
+	color:#2e3030 ;
+}
+.description p{
+	color:#666;
+	font-size: 20px;
+	width: 50%;
+	line-height: 1.5;
+}
+.description button{
+	border:1px  solid #2e3030;
+	background:#2e3030;
+	color:#fff;
+}
+.about{
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+}
+.about h1{
+	color:#2e3030;
+	margin: 2em;
+}
+.about img{
+	height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+.about span{
+	display: block;
+	color: #888;
+	position: absolute;
+	left: 115px;
+}
+.about .desc{
+	padding: 2em;
+	border-left:4px solid #10828C;
+}
+.about .desc h3{
+	color: #10828C;
+}
+.about .desc p{
+	line-height:2;
+	color:#888;
+}
+
+.disponibilite {
+	margin: auto;
+	margin-top: -80px;
+	background-color: #f4f4f4;
+	box-shadow: 0 10px 10px -5px;
+}
+
+
+/*** ABOUT */
+.about{
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+}
+.about h1{
+	color:#2e3030;
+	margin: 2em;
+}
+.about img{
+	height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+.about span{
+	display: block;
+	color: #888;
+	position: absolute;
+	left: 115px;
+}
+.about .desc{
+	padding: 2em;
+	border-left:4px solid #2e3030;
+}
+.about .desc h3{
+	color: #2e3030;
+}
+.about .desc p{
+	line-height:2;
+	color:#888;
+}
+
+.competence {
+	display: flex;
+	justify-content: space-around;
+}
+
+.competence_card {
+	border: none;
+	width: 8rem; 
+	height: 8rem;
+}
+
+.competence_title {
+	font-weight: bold;
+	text-align: center;
+	font-size: 1..2em;
+}
+
+.dispo_corps h5, .dispo_corps p {
+	color: #2e3030;
+}
+
+/** Info service */
+.info_taxi {
+    margin: 4em 0;
+    position: relative;	
+}
+.info_taxi h1 {
+    color:#2e3030;
+    margin: 2em;
+}
+
+.image_serv {
+    border-radius: 100%;
+    width: 10%;
+    height: 10%;
+    margin-right: 20px;
+}
+
+
+
+/*--------------------------------------*/
+
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?q=75&fm=jpg&s=8eb83df8a744544977722717b1ea4d09");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 450px;
+    padding-top: 50px;
+    height: 50em;
+
+}
+
+
+.contact p, .lieu p, .settings p{
+    font-size: 14px;
+    margin: 0 0 10px !important;
+    font-weight: 300;
+} 
+
+
+.tab_card {
+    border: 0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+    color: rgba(0,0,0,.87);
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    height: 40em;
+}
+
+
+.tab_card_heard {
+    border-radius: 3px;
+    padding: 1rem 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border: 0;
+    background: linear-gradient(60deg,#eee,#bdbdbd);
+}
+
+.card-plain .tab_card_heard:not(.card-avatar) {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.tab_card .car_body{
+    padding: 15px 30px;
+}
+
+div.card .card-header-primary {
+    background: linear-gradient(60deg,#2e3030,#2e3030);
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.2), 0 13px 24px -11px rgba(156,39,176,.6);
+}
+
+
+.nav-tabs {
+    border: 0;
+    border-radius: 3px;
+    padding: 0 15px;
+}
+
+
+.nav-tabs .nav-item {
+    margin-bottom: -1px;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    background-color: hsla(0,0%,100%,.2);
+    transition: background-color .3s .2s;
+}
+
+.nav-tabs .nav-item .nav-link{
+    border: 0!important;
+    color: #fff!important;
+    font-weight: 500;
+}
+
+.nav-tabs .nav-item .nav-link {
+    color: #fff;
+    border: 0;
+    margin: 0;
+    border-radius: 3px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 15px;
+    background-color: transparent;
+    transition: background-color .3s 0s;
+}
+
+
+.nav-tabs .nav-item .material-icons {
+    margin: -1px 5px 0 0;
+    vertical-align: middle;
+}
+
+
+
+
+
+/** contact form */
+.contact-form{
+	margin: 6em 0;
+	position: relative;		
+}
+
+.contact-form h1{
+	padding:2em 1px;
+	color: #2e3030; 
+}
+.contact-form .right{
+	max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+	background:  #2e3030;
+	color: #fff;
+	border:0;
+}
+.contact-form .right .form-control::placeholder{
+	color: #888;
+	font-size: 16px;
+}
+
+
+/** team */
+.info_sup {
+	margin-top: 15em;
+	position: relative;
+}
+.team{
+	margin: 4em 0;
+	position: relative;
+
+}
+
+.team .item{
+	position: relative;
+	overflow: hidden;
+	margin-top: 1em;	
+}
+.team .des{
+	background: #2e3030;
+	color: #fff;
+	text-align: center;
+	border-top-right-radius: 93%;
+	transition:.3s ease-in-out;
+	position: absolute;
+	width: 88%;
+	bottom: 24px;
+
+
+}
+.team .item:hover .des{
+	height: 100%;
+	background:rgba(0,0,0,0.5);
+    position: absolute;
+	width: 89%;
+	padding: 5em;
+	top: 0;
+	border-top-right-radius: 0;
+}
+
+.reservation_card {
+	height: 120px;
+	margin-top: 1em;
+	font-weight: bold;
+	color: #2e3030;
+	margin-left: 50px;
+	box-shadow: 5px 5px 10px;
+	font-size: 1.5em;
+}
+
+.reservation_card_container {
+	display: flex;
+	justify-content: center;
+}
