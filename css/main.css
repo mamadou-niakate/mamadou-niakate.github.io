@@ -387,7 +387,7 @@ div.card .card-header-primary {
 
 /** contact form */
 .contact-form{
-	margin: 6em 0;
+	margin: 3em 0;
 	position: relative;		
 }
 
@@ -471,7 +471,7 @@ div.card .card-header-primary {
 .map {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 35em;
 }
 
 
@@ -489,6 +489,7 @@ div.card .card-header-primary {
     
     .contact-form h1{
         padding:0em 1px;
+        margin-top: -0.5em;
         font-size: 2em;
         color: #2e3030; 
     }

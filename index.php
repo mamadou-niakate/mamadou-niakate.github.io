@@ -1,12 +1,32 @@
+<?php
+	ini_set('display_errors', 1);
+	ini_set('display_startup_errors', 1);
+	error_reporting(E_ALL);
+
+
+	if(!empty($_POST["send"])) {
+		
+		if(isset($_POST["username"]) && isset($_POST["userEmail"]) && isset($_POST["phone"]) && isset($_POST["content"])) {
+			$name = $_POST["username"];
+			$email = $_POST["userEmail"];
+			$phone = $_POST["phone"];
+			$content = $_POST["content"];
+			$subject = "Demande d'inforation de la part d'un visiteur";
+		}
+	}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<title> Taxi </title>
 		
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
 		<!-- ajout des fichiers css  -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		
 
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -217,24 +237,34 @@
 	                        <div class="tab-pane active" id="Contact">
 	                            <div class="contact-form">
 									<div class="container">
-										<form>
+										<form id="formulaire" action="" method="post">
 											<div class="row">
 												<div class="col-lg-4 col-md-4 col-sm-12">
 												  <h1> Me contacter </h1>	
 												</div>
 												<div class="col-lg-8 col-md-8 col-sm-12 right">
 												   <div class="form-group">
-												   	 <input type="text" class="form-control form-control-lg" placeholder="Prénom Nom" name="nom">
+												   	 <input type="text" class="form-control form-control-lg" placeholder="Prénom Nom" id="username" name="username">
 												   </div>
 												   <div class="form-group">
-												   	 <input type="email" class="form-control form-control-lg" placeholder="adresse email" name="email">
+												   	 <input type="email" class="form-control form-control-lg" placeholder="Adresse email" id="userEmail" name="userEmail">
 												   </div>
 												   <div class="form-group">
-												   	 <textarea class="form-control form-control-lg"> </textarea>
+												   	 <input type="text" class="form-control form-control-lg" placeholder="Téléphone" id="phone" name="phone">
 												   </div>
-												   <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+												   <div class="form-group">
+												   	 <textarea class="form-control form-control-lg" id="content" value = "scdfg" name="content"> </textarea>
+												   </div>
+												   <input type="submit" class="btn btn-secondary btn-block" id="Submit" value="Envoyez" name="send">
 												</div>
 											</div>
+											<div id="error_message" style="width:100%; height:100%; display:none; ">
+												<h4>Error</h4>
+												Sorry there was an error sending your form.
+											</div>
+											<div id="success_message" style="width:100%; height:100%; display:none; ">
+												<h2>Success! Your Message was Sent Successfully.</h2>
+										   	</div>	
 										</form>
 									</div>
 								</div>
