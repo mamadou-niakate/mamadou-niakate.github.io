@@ -1,5 +1,5 @@
 
-.intro-copy {
+/*.intro-copy {
   padding: 1em;
   margin: 50vh auto;
   max-width: 15em;
@@ -8,79 +8,34 @@
   font-size: 2em;
   line-height: 1.2;
   text-align: center;
-}
+}*/
 
 .top-link {
-  transition: all .25s ease-in-out;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  display: inline-flex;
-  
+    transition: all .25s ease-in-out;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: inline-flex;
+
     cursor: pointer;
     align-items: center;
     justify-content: center;
     margin: 0 3em 3em 0;
     border-radius: 50%;
     padding: .25em;
-    width: 80px;
-    height: 80px;
-  background-color: #F8F8F8;
-  
-  &.show {
-    visibility: visible;
-    opacity: 1;
-  }
-  
-  &.hide {
-    visibility: hidden;
-    opacity: 0;
-  }
-
-    svg {
-        fill: #000;
-        width: 24px;
-        height: 12px;
-    }
-
-    &:hover {
-        background-color: #E8E8E8;
-
-        svg {
-            fill: #000000;
-        }
-    }
+    width: 50px;
+    height: 50px;
+    background-color: #F8F8F8;
 }
 
-// Text meant only for screen readers.
-.screen-reader-text {
-    position: absolute;
-    clip-path: inset(50%);
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    word-wrap: normal !important;
-    clip: rect(1px, 1px, 1px, 1px);
+.show {
+    visibility: visible;
+    opacity: 1;
+}
 
-    &:focus {
-        display: block;
-        top: 5px;
-        left: 5px;
-        z-index: 100000; // Above WP toolbar
-        clip-path: none;
-        background-color: #eee;
-        padding: 15px 23px 14px;
-        width: auto;
-        height: auto;
-        text-decoration: none;
-        line-height: normal;
-        color: #444;
-        font-size: 1em;
-        clip: auto !important;
-    }
+.hide {
+    visibility: hidden;
+    opacity: 0;
 }
 
 
@@ -127,14 +82,12 @@ html,h1,h2,h3,h4,h5,h6,a{
 .navbar-collapse{
  justify-content: flex-end;
 }
-/*.navbar-toggler{
-  background:#fff !important;
-}*/
+
 
 /*header style*/
 .header{
 	position: relative;
-	background-image: url('../images/headerback.jpg');
+	background-image: url('../images/taxi5.jpg');
 
 	background-size: cover;
 	background-position: center;
@@ -156,10 +109,10 @@ html,h1,h2,h3,h4,h5,h6,a{
 
 
 .description h1{
-	color:#2e3030 ;
+	color:#f5f5f5 ;
 }
 .description p{
-	color:#666;
+	color:#eeeeee;
 	font-size: 20px;
 	width: 50%;
 	line-height: 1.5;
@@ -551,6 +504,17 @@ div.card .card-header-primary {
         margin-top: -25px;
     }
 
+    .dispo_corps .dispo_corps_text {
+        position: relative;
+        margin-left: 40px;
+    }
+
+    .debit_button {
+        position: relative;
+        margin-left: 10px;
+        margin-top: 12px;
+    }
+
     .description {
         position: relative;
         padding-top: 100px;
@@ -569,7 +533,7 @@ div.card .card-header-primary {
         background: rgb(94, 91, 91);
     }
 
-    .description_col_1, description_col_2 {
+    .description_col_1, .description_col_2 {
         padding-bottom: 70px;
     }
 

@@ -65,9 +65,9 @@
 						<h1 class="col-lg-6 col-md-8 col-sm-12 description_col_1">
 							Bienvenue
 							<p>
-								Pour obtenir un débit, cliquez sur le bouton ci-dessous
+								Pour obtenir un dévis, cliquez sur le bouton ci-dessous
 							</p>
-							<button class="btn btn-outline-secondary btn-lg debit_button"> Obtenir un débit </button>
+							<button class="btn btn-outline-secondary btn-lg debit_button"> Obtenir un dévis </button>
 						</h1>
 						<div class="col-lg-6 col-md-12 col-sm-12 description_col_2">
 							<img src="images/pngfuel.png" class="car img-fluid">
@@ -84,12 +84,14 @@
 				</div>
 				<div class="col-md-8">
 					<div class="card-body dispo_corps">
-						<h5 class="card-title"> Disponibilité </h5>
-						<p class="card-text font-weight-bold">
-							24h/24 7j/7
-						</p>
-						<p class="card-text"><small class="text-muted"> 
-							<button class="btn btn-outline-secondary btn-lg debit_button"> En savoir plus </button </small>
+						<div class="dispo_corps_text">
+							<h5 class="card-title"> Disponible</h5>
+							<p class="card-text font-weight-bold">
+								24h/24 7j/7
+							</p>
+						</div>
+						<p class="card-text debit_button"><small class="text-muted"> 
+							<button class="btn btn-outline-secondary btn-lg"> En savoir plus </button </small>
 						</p>
 					</div>
 				</div>
@@ -334,7 +336,6 @@
 
 		<a class="top-link hide" href="" id="js-top">
 		  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6"><path d="M12 6H0l6-6z"/></svg>
-		  <span class="screen-reader-text">Back to top</span>
 		</a>
 		<!---- footer --->
 		<footer class="page-footer font-small special-color-dark pt-4">
