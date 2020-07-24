@@ -1,21 +1,3 @@
-<?php
-	ini_set('display_errors', 1);
-	ini_set('display_startup_errors', 1);
-	error_reporting(E_ALL);
-
-
-	if(!empty($_POST["send"])) {
-		
-		if(isset($_POST["username"]) && isset($_POST["userEmail"]) && isset($_POST["phone"]) && isset($_POST["content"])) {
-			$name = $_POST["username"];
-			$email = $_POST["userEmail"];
-			$phone = $_POST["phone"];
-			$content = $_POST["content"];
-			$subject = "Demande d'inforation de la part d'un visiteur";
-		}
-	}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
