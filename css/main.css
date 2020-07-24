@@ -50,7 +50,7 @@
     }
   }
   .car {
-    animation: drive 3s cubic-bezier(0.02, 0.01, 0.21, 1) infinite;
+    animation: drive 3s cubic-bezier(0.02, 0.01, 0.21, 1) /*infinite*/;
   }
 
 
