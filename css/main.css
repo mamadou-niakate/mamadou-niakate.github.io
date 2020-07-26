@@ -472,7 +472,7 @@ div.card .card-header-primary {
 
 
     .about h1, .info_taxi h1, .about .desc h3{
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     .disponibilite_one {
@@ -526,6 +526,16 @@ div.card .card-header-primary {
 
     .description_col_1, .description_col_2 {
         padding-bottom: 70px;
+    }
+
+    .competence_card {
+        width: 8rem; 
+        height: 6rem;
+        padding-left: 2px;
+    }
+
+    .about .desc {
+        padding-top: 4em;
     }
 
 }
