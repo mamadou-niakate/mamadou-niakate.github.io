@@ -112,37 +112,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 	background:#2e3030;
 	color:#fff;
 }
-.about{
-	margin: 4em 0;
-	padding: 1em;
-	position: relative;
-}
-.about h1{
-	color:#2e3030;
-	margin: 2em;
-}
-.about img{
-	height: 100%;
-    width: 100%;
-    border-radius: 50%
-}
-.about span{
-	display: block;
-	color: #888;
-	position: absolute;
-	left: 115px;
-}
-.about .desc{
-	padding: 2em;
-	border-left:4px solid #10828C;
-}
-.about .desc h3{
-	color: #10828C;
-}
-.about .desc p{
-	line-height:2;
-	color:#888;
-}
+
 
 .disponibilite_one {
 	margin: auto;
@@ -530,12 +500,22 @@ div.card .card-header-primary {
 
     .competence_card {
         width: 8rem; 
-        height: 6rem;
+        height: 6.5rem;
         padding-left: 2px;
     }
 
     .about .desc {
         padding-top: 4em;
+    }
+
+    .about h1, .info_taxi h1, .about .desc h3{
+        font-size: 1.5em;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .list-unstyled {
+        padding-top: 40px;
     }
 
 }
