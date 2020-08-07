@@ -77,7 +77,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 /*header style*/
 .header{
 	position: relative;
-	background-image: url('../images/taxi6.jpg');
+	background-image: url('../images/taxi_7.jpg');
 
 	background-size: cover;
 	background-position: center;
@@ -107,11 +107,11 @@ html,h1,h2,h3,h4,h5,h6,a{
 	width: 50%;
 	line-height: 1.5;
 }
-.description button{
+/*.description a{
 	border:1px  solid #2e3030;
 	background:#2e3030;
 	color:#fff;
-}
+}*/
 
 
 .disponibilite_one {
@@ -388,7 +388,21 @@ div.card .card-header-primary {
     height: 35em;
 }
 
+.description_col_1 {
+    position: relative;
+    width: 90%;
+}
 
+.description_col_1 p {
+    position: relative;
+    width: 100%;
+    text-align: justify;
+}
+
+.taxi_info {
+    font-size: 2em; 
+    text-align: center;
+}
 
 
 /********* MEDIA QUERIES */
@@ -442,7 +456,7 @@ div.card .card-header-primary {
 
 
     .about h1, .info_taxi h1, .about .desc h3{
-        font-size: 1.3em;
+        font-size: 2em;
     }
 
     .disponibilite_one {
@@ -474,6 +488,8 @@ div.card .card-header-primary {
         position: relative;
         margin-left: 10px;
         margin-top: 12px;
+        width: 100%;
+        font-size: 0.4em;
     }
 
     .description {
@@ -516,6 +532,10 @@ div.card .card-header-primary {
 
     .list-unstyled {
         padding-top: 40px;
+    }
+
+    .taxi_info {
+        font-size: 1.8em;
     }
 
 }
