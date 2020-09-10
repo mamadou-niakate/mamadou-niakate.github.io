@@ -1,0 +1,3 @@
+RewriteEngine on
+Rewritecond %{HTTP_HOST} ^taxi-viano-montlhery.fr$
+Rewriterule ^(.*) https://www.taxi-viano-montlhery.fr/$1 [QSA,L,R=301]

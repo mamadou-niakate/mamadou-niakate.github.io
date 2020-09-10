@@ -1,44 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 	<head>
-		<title> Taxi </title>
-		
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Taxi Viano dans l&#039;Essonne, en Île-de-France 24h/7j - Appellez au 06 67 49 42 62 pour Réservation ou simple Contact</title>
+		<meta name="keywords" content="taxi Essonne, taxi 91 , taxi toutes distances, taxi Ile de France" />
+		<meta name="description" content="Taxi Viano dispose de 7 places  tout confort avec un chauffeur hautement 
+										 qualifié pour vous offrir des prestations de transport en taxi. Possibilité de transporter 1 à 7 
+										 personnes à toutes distances.">
+		<meta name="robots" content="index, follow"/>
+		<meta name="Author" content="mamadouniakate10@yahoo.fr" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="publisher" content="Mamadou Niakaté" />
+		<meta name="googlebot" content="index,follow,nosnippet" />
 
 		<!-- ajout des fichiers css  -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-		
-
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
-
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
 	    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
 	    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
 	</head>
 	<body>
-
 		<!-- navbar -->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
 			  <span class="navbar-toggler-icon"></span>
 			</button>
 			<a class="navbar-brand" href="#"> Taxi Viano 7 Places </a>
-		  
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-			  <ul class="navbar-nav mr-4">
+			    <ul class="navbar-nav mr-4">
 					<li class="nav-item"> <a class="nav-link" data-value="about" href="#about"> Votre chauffeur</a> </li>
-					<li class="nav-item"> <a class="nav-link " data-value="moves" href="#moves">Déplcacements</a> </li>
-					<li class="nav-item"> <a class="nav-link " data-value="reservation" href="#reservation"> Réservation </a> </li>
-					<li class="nav-item"> <a class="nav-link " data-value="Contact" href="#Contact">Contact</a> </li>
-					<li class="nav-item"> <a class="nav-link " data-value="Contact" href="#Contact"> <i class="fas fa-mobile-alt"></i> 00.00.00.00.00 </a> </li>
+					<li class="nav-item"> <a class="nav-link" data-value="moves" href="#moves">Déplacements</a> </li>
+					<li class="nav-item"> <a class="nav-link" data-value="reserv" href="#reserv"> Réservation </a> </li>
+					<li class="nav-item"> <a class="nav-link" data-value="Contact" href="#Contact">Contact</a> </li>
+					<li class="nav-item"> <a class="nav-link" data-value="Appel" href="tel:0667494262"> <i class="fas fa-mobile-alt"></i> 06 67 49 42 62 </a> </li>
 				</ul> 
 			</div>
-		  </nav>
-
+		</nav>
 		<!-- L'entete -->
 		<header class="header">
 			<div class="overlay"></div>
@@ -46,40 +47,34 @@
 					<div class="description row" >
 						<h1 class="col-lg-6 col-md-8 col-sm-12 description_col_1">
 							Bienvenue
-							<p>
-								Pour obtenir un dévis, cliquez sur le bouton ci-dessous
-							</p>
-							<button class="btn btn-outline-secondary btn-lg debit_button"> Obtenir un dévis </button>
+							<p>Vous pouvez me contacter par téléphone au numéro suivant : <span><a style="color:#eeeeee; font-weight:bold" href="tel:0667494262">06 67 49 42 62</a></span> ou m'écrire en cliquant sur le bouton ci-dessous</p>
+							<a href="#formulaire" class="btn btn-outline-secondary btn-lg debit_button"> Envoyez-moi un email </a>
 						</h1>
 						<div class="col-lg-6 col-md-12 col-sm-12 description_col_2">
-							<img src="images/pngfuel.png" class="car img-fluid">
+							<img src="images/imageedit_3_4495798220.png" class="car img-fluid">
 						</div>
 					</div>
 				</div>
 			</div>
 		</header>
-
 		<div class="card mb-3 disponibilite_one" style="max-width: 400px;">
 			<div class="row no-gutters">
-				<div class="col-md-4 al">
-					<img src="images/schedule.svg" class="card-img watch" alt="...">
-				</div>
+				<div class="col-md-4 al"><img src="images/schedule.svg" class="card-img watch" alt="heure"></div>
 				<div class="col-md-8">
 					<div class="card-body dispo_corps">
 						<div class="dispo_corps_text">
 							<h5 class="card-title"> Disponible</h5>
-							<p class="card-text font-weight-bold">
-								24h/24 7j/7
-							</p>
+							<p class="card-text font-weight-bold"> 24h/24 7j/7 </p>
 						</div>
-						<p class="card-text debit_button"><small class="text-muted"> 
-							<button class="btn btn-outline-secondary btn-lg"> En savoir plus </button </small>
+						<p class="card-text debit_button">
+							<small class="text-muted"> 
+								<button class="btn btn-outline-secondary btn-lg"> En savoir plus </button> 
+							</small>
 						</p>
 					</div>
 				</div>
 			</div>
 		</div>
-
 		<!-- Lieux -->
 		<div class="info_taxi" id="moves">
 			<h1 class="text-center">Vos déplacements </h1>
@@ -93,58 +88,52 @@
 						</ol>
 						<div class="carousel-inner">
 							<div class="carousel-item active">
-								<img src="images/events.jpg" class="d-block w-100" alt="...">
-								<div class="carousel-caption d-none d-md-block">
-								<h5>First slide label</h5>
-								<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-								</div>
+								<img src="images/events.jpg" class="d-block w-100" alt="image événements">
 							</div>
 							<div class="carousel-item">
-								<img src="images/night-flight.jpg" class="d-block w-100" alt="...">
-								<div class="carousel-caption d-none d-md-block">
-								<h5>Second slide label</h5>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-								</div>
+								<img src="images/night-flight.jpg" class="d-block w-100" alt="trajet professionnel">
 							</div>
 							<div class="carousel-item">
-								<img src="images/toureffeil.jpg" class="d-block w-100" alt="...">
-								<div class="carousel-caption d-none d-md-block">
-								<h5>Third slide label</h5>
-								<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-								</div>
+								<img src="images/toureffeil.jpg" class="d-block w-100" alt="touristique">
 							</div>
 						</div>
 						<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
 						</a>
 						<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
 						</a>
 					</div>
 					<div class="col-lg-6 col-m-6 col-sm-12">
 						<ul class="list-unstyled">
 							<li class="media">
-							<img class="image_serv img-fluid" src="images/local_airport.svg" class="mr-3" alt="...">
-							<div class="media-body">
-								<h5 class="mt-0 mb-1">Professionel</h5>
-								Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. 
-							</div>
+								<img class="image_serv img-fluid" src="images/local_airport.svg" class="mr-3" alt="trajet aéroport">
+								<div class="media-body"> <h5>Navette Aéroport</h5> </div>
 							</li>
 							<li class="media my-4">
-							<img class="image_serv img-fluid" src="images/emoji_events.svg" class="mr-3" alt="...">
-							<div class="media-body">
-								<h5 class="mt-0 mb-1">Évènnementiel</h5>
-								Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. 
-							</div>
+								<img class="image_serv img-fluid" src="images/euro.svg" class="mr-3" alt="tarif">
+								<div class="media-body"> <h5 >Tarif réglementé</h5> </div>
 							</li>
-							<li class="media">
-							<img class="image_serv img-fluid" src="images/museum.svg" class="mr-3" alt="...">
-							<div class="media-body">
-								<h5 class="mt-0 mb-1">Touristique</h5>
-								Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. 
-							</div>
+							<li class="media my-4">
+								<img class="image_serv img-fluid" src="images/traffic.svg" class="mr-3" alt="traffic">
+								<div class="media-body">
+									<h5>Taxi Toutes Distances: Dans l'Essonne, en île-de-France & France</h5>
+								</div>
+							</li>
+							<li class="media my-4">
+								<img class="image_serv img-fluid" src="images/directions_railway.svg" class="mr-3" alt="directions">
+								<div class="media-body"> <h5>Transfert Gare</h5> </div>
+							</li>							<li class="media my-4">
+								<img class="image_serv img-fluid" src="images/watch_later.svg" class="mr-3" alt="taxi 24/24 7j/7">
+								<div class="media-body"> <h5>24h/ 7j/ 365j</h5> </div>
+							</li>
+							<li class="media my-4">
+								<img class="image_serv img-fluid" src="images/museum.svg" class="mr-3" alt="musé">
+								<div class="media-body">
+									<h5>Touristique</h5>
+								</div>
 							</li>
 						</ul>
 					</div>
@@ -157,38 +146,33 @@
 		<!-- A propos de moi -->
 		<div class="about" id="about">
 			<div class="container">
-			  <h1 class="text-center"> Qui suis-je ? </h1>
+			  <h1 class="text-center"> Où vous amène votre taxi ? </h1>
 				<div class="row">
 					<div class="col-lg-4 col-md-4 col-sm-12">
-						<img src="images/team-3.jpg" class="img-fluid">
-						<span class="text-justify">S.Web Developer</span>
+						<img src="images/v7_1.png" class="img-fluid" style="height: 250px">
+						<span class="taxi_info"> Taxi Viano 7 Places</span>
 					</div>
 
 					<div class="col-lg-8 col-md-8 col-sm-12 desc">
-						<h3>Nom Prénom</h3>
-						<p>
-							ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						<h3> Taxi Viano basé à Montlhéry  </h3>
+						<p style="text-align: justify;">
+							Besoin de vous déplacer en taxi à partir de  Montlhéry et ses alentours (Linas, Leuville, Ville du bois, Longpont sur orge Marcoussis ...) ?, dans l’Essonne, en région Île-de-France ou toutes distances ? Taxi Viano dispose de 7 places  tout confort avec un chauffeur hautement qualifié pour vous offrir des prestations de transport en taxi. Possibilité de transporter 1 à 7 personnes.
 						</p>
 						<div class="competence">
 							<div class="card competence_card">
-								<img class="card-img-top" src="images/smilling.jpg" alt="Card image cap">
+								<img class="card-img-top" src="images/smilling.jpg" alt="chauffeur souriant">
 								<div class="card-body">
 									<p class="card-text competence_title"> Relationnel </p>
 								</div>
 							</div>
 							<div class="card competence_card">
-								<img class="card-img-top" src="images/business_man.jpg" alt="Card image cap">
+								<img class="card-img-top" src="images/business_man.jpg" alt="chauffeur professionnel">
 								<div class="card-body">
-									<p class="card-text competence_title"> Serieux </p>
+									<p class="card-text competence_title"> Professionnel </p>
 								</div>
 							</div>
 							<div class="card competence_card">
-								<img class="card-img-top" src="images/watch.jpg" alt="Card image cap">
+								<img class="card-img-top" src="images/watch.jpg" alt="chauffeur ponctuel">
 								<div class="card-body">
 									<p class="card-text competence_title"> Ponctuel </p>
 								</div>
@@ -211,7 +195,7 @@
                                 <ul class="nav nav-tabs" data-tabs="tabs">
                                     <li class="nav-item"> <a class="nav-link active" href="#Contact" data-toggle="tab"> <span class="material-icons"> contact_mail </span>  Contact  </a></li>
                                     <li class="nav-item"> <a class="nav-link" href="#messages" data-toggle="tab"> <i class="material-icons">place</i> Où suis-je ? </a></li>
-                                    <li class="nav-item"> <a class="nav-link" href="#reservation" data-toggle="tab">  <i class="material-icons">event_available</i> reservation  </a></li>
+                                    <li class="nav-item"> <a class="nav-link" href="#reserv" data-toggle="tab">  <i class="material-icons">event_available</i> Réservation  </a></li>
                                 </ul>
                             </div>
                         </div>
@@ -241,14 +225,7 @@
 												   </div>
 												   <input type="submit" class="btn btn-secondary btn-block" id="Submit" value="Envoyez" name="send">
 												</div>
-											</div>
-											<div id="error_message" style="width:100%; height:100%; display:none; ">
-												<h4>Error</h4>
-												Sorry there was an error sending your form.
-											</div>
-											<div id="success_message" style="width:100%; height:100%; display:none; ">
-												<h2>Success! Your Message was Sent Successfully.</h2>
-										   	</div>	
+											</div>	
 										</form>
 									</div>
 								</div>
@@ -256,7 +233,7 @@
 	                        <div class="tab-pane" id="messages">
 	                            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21091.709469788195!2d2.2485039259728707!3d48.63924417304909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5d9dc326d8fdd%3A0x40b82c3688b43c0!2s91310%20Montlh%C3%A9ry!5e0!3m2!1sfr!2sfr!4v1595101448743!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 							</div>
-	                        <div class="tab-pane" id="reservation">
+	                        <div class="tab-pane" id="reserv">
 	                        	<div class="reservation_card_container">
 									<div class="card reservation_card">
 										<i class="material-icons">event_available</i> 
@@ -275,49 +252,39 @@
 								</div>
 	                            <div class="team" id="team">
 								<div class="container">
-										<div class="row">
-											<div class="col-lg-3 col-md-3 col-sm-12 item">
-												<img src="images/team-2.jpg" class="img-fluid" alt="team">
-												<div class="des">
-												 	Transports privés
-												 </div>
-												<span class="text-muted">Transports privés</span>
-											</div>
-											<div class="col-lg-3 col-md-3 col-sm-12 item">
-												<img src="images/team-3.jpg" class="img-fluid" alt="team">
-												<div class="des">
-												 	 Evènementiels
-												 </div>
-												<span class="text-muted">Evènementiels</span>
-											</div>
-											<div class="col-lg-3 col-md-3 col-sm-12 item">
-												<img src="images/team-2.jpg" class="img-fluid" alt="team">
-												<div class="des">
-												 	Professionnels 
-												 </div>
-												<span class="text-muted">Professionnels</span>
-											</div>
-											<div class="col-lg-3 col-md-3 col-sm-12 item">
-												<img src="images/team-3.jpg" class="img-fluid" alt="team">
-												 <div class="des">
-												 	Touristiques
-												 </div>
-												<span class="text-muted">Touristiques</span>
-											</div>
+									<div class="row">
+										<div class="col-lg-3 col-md-3 col-sm-12 item">
+											<img src="images/personal_driver.jpg" class="img-fluid" alt="team">
+											<div class="des"> Transports privés </div>
+											<span class="text-muted">Transports privés</span>
 										</div>
+										<div class="col-lg-3 col-md-3 col-sm-12 item">
+											<img src="images/events.jpg" class="img-fluid" alt="Evènementiels">
+											<div class="des"> Evènementiels </div>
+											<span class="text-muted">Evènementiels</span>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-12 item">
+											<img src="images/train.jpg" class="img-fluid" alt="parcours Professionnels">
+											<div class="des"> Professionnels </div>
+											<span class="text-muted">Professionnels</span>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-12 item">
+											<img src="images/eiffel-tower.jpg" class="img-fluid" alt="pourcours touristique">
+												<div class="des"> Touristiques </div>
+											<span class="text-muted">Touristiques</span>
+										</div>
+									</div>
 								</div>
 							</div>
-
 	                        </div>
                         </div>
                     </div>
                 </div>
 			</div>
 		 </div> 
-		<!--/div-->
 
 		<a class="top-link hide" href="" id="js-top">
-		  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6"><path d="M12 6H0l6-6z"/></svg>
+		  <span class="material-icons bg-dark" style="font-size: 2em; border-radius: 100%; color:white">arrow_drop_up</span>
 		</a>
 		<!---- footer --->
 		<footer class="page-footer font-small special-color-dark pt-4">
@@ -326,24 +293,25 @@
 					<li class="list-inline-item"> <a class="btn-floating btn-fb mx-1"> <i class="fab fa-facebook-f"> </i></a> </li>
 					<li class="list-inline-item"> <a class="btn-floating btn-tw mx-1"> <i class="fab fa-twitter"> </i> </a> </li>
 					<li class="list-inline-item"> <a class="btn-floating btn-gplus mx-1"> <i class="fab fa-google-plus-g"> </i> </a> </li>
-					<li class="list-inline-item">  <a class="btn-floating btn-li mx-1"> <i class="fab fa-linkedin-in"> </i> </a> </li>
 					<li class="list-inline-item"> <a class="btn-floating btn-dribbble mx-1"> <i class="fab fa-dribbble"> </i> </a> </li>
 				</ul>
 			</div>
-
-			<!-- Copyright -->
-			<div class="footer-copyright text-center py-3"> Contacter le développeur
-				<a href="https://mdbootstrap.com/"> mamadouniakate10@yahoo.fr </a>
+			<div class="footer-copyright text-center py-3"> 
+				<h4>Contacter le développeur</h2>
+				<address>
+					<a href="mailto:mamadouniakate382@gmail.com">mamadouniakate382@gmail.com</a><br>
+					<a href="tel:+33698330617">(+33) 6 98 33 06 17</a> <br/>
+					<a href="https://www.linkedin.com/in/mamadou-niakate/">Linkedin</a> | 
+					<a href="https://github.com/mamadou-niakate">Github</a><br>
+				</address>
 			</div>
 		</footer>
 
 		<!-- Ajout des fichiers Javasscript -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src='js/main.js'></script>
 	</body>
 </html>
